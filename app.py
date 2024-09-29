@@ -23,7 +23,7 @@ def generate_sound(text, lang='en'):
     return audio_data
 
 def main():
-    st.title("AI Text-to-Speech")
+    st.title("Wave: your words, your voice")
     user_input = st.text_input("Enter text to convert to speech:")
     language = st.selectbox("Select language:", ["en", "es", "fr", "de", "ja"], format_func=lambda x: {
         'en': 'English',
